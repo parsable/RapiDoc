@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-  <title>RapiDoc</title>
+  <title>Parsable API</title>
 </head>
 
 <body>
@@ -17,11 +17,25 @@
     https://assets.zuora.com/zuora-documentation/swagger.yaml <<< Large spec with lot of markdown
   -->
 
+  <!--
+  #003D57 - dark blue
+  #0086bf - medium blue
+  #19BAF2 - bright blue
+  #FAFAFA - gray
+  -->
   <rapi-doc
-    spec-url="./examples/specs/petstore.json"
+    spec-url="./examples/parsable_api.json"
+    allow-spec-url-load="false"
+    allow-spec-file-load="false"
+    header-color="#FAFAFA"
+    primary-color="#0086bf"
     layout="row"
-    theme="dark"
+    theme="light"
   >
+    <img
+      slot="logo"
+      src="https://files.readme.io/711a9e2-small-parsable_logo2.png"
+    />
 </rapi-doc>
 </body>
 
