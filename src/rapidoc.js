@@ -68,7 +68,7 @@ export default class RapiDoc extends LitElement {
           --light-border-color:#eee;
           --light-get-color:#eff8fd;
           --light-put-color:#fff5e6;
-          --light-post-color:#fbfff0;
+          --light-post-color:#f5fbfe;
           --light-delete-color:#fff0f0;
           --light-patch-color:#fff5cc;
           --hover-color:#f7f7f7;
@@ -81,7 +81,7 @@ export default class RapiDoc extends LitElement {
           --hover-bg:#f7f7f7;
           --get-color:#47AFE8;
           --put-color:#FF9900;
-          --post-color:#99CC00;
+          --post-color:#19BAF2;
           --delete-color:#F06560;
           --patch-color:#fc0;
           --link-color:#47AFE8;
